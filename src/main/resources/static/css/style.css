@@ -1,0 +1,249 @@
+@charset "ISO-8859-1";
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	margin:20px 50px;
+}
+.siteTitle{
+	color: green;
+	font-weight: bolder;
+	font-family: "Fantasy", copperplate, sans-serif;
+}
+
+.heading{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.loginError{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.loginForm{
+	border: black 2px solid;
+	text-align: center;
+	margin: 30px 500px;
+	padding: 30px;
+	background: gainsboro;
+	border-radius:5%;
+}
+
+.formFields{
+	margin: 30px;
+	font-weight: bold;
+}
+
+.loginBtn{
+	background:green;
+	color: white;
+	font-weight:bolder;
+}
+
+.validation{
+	color: red;
+	font-weight:bold;
+}
+.registerLink{
+	text-align: center;
+}
+
+.registerHeader{
+	text-align: center;
+	margin-top: 20px;
+	color:darkseagreen;
+}
+
+.viewPage{
+	border: 2px solid black;
+	text-align: center;
+	margin:10px 300px;
+	padding:25px;
+	background: mintcream;
+}
+
+.itemInfo{
+	margin:50px 50px;
+	color: darkgreen;
+}
+
+
+.viewLinks{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	margin-top: 30px;
+	
+}
+.registerForm{
+	border: 2px solid black;
+	padding:30px;
+	margin: 50px 500px;
+	text-align: center;
+	background: gainsboro;
+}
+
+.registerBtn{
+	background: green;
+	color: white;
+	font-weight: bold;
+	padding: 3px 10px;
+}
+
+.dashHead{
+	color:goldenrod;
+}
+
+.dashNav{
+	display:flex;
+	justify-content: space-between;
+}
+
+.dashContainer{
+	margin-top: 50px;
+	margin-left:100px;
+}
+
+.myItem{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+}
+
+.itemHeader{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+	background: forestgreen;
+	color:white;
+}
+
+.itemData{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+	background: palegreen;
+	font-weight: bold;
+}
+
+.editContainer{
+	text-align: center;
+}
+
+.editInput{
+	margin-bottom: 30px;
+	font-weight: bold;
+	color: maroon;
+}
+
+.editForm{
+	border:1px solid black;
+	background: tan;
+	margin:10px 400px;
+	padding:10px 30px;
+	align-items: center;
+}
+
+.editBtn{
+	background: forestgreen;
+	padding: 2px;
+	font-weight: bold;
+	color: yellow;
+}
+
+.editLink{
+	text-align: right;
+	margin-top:30px;
+	margin-right: 20px;
+}
+
+.deleteBtn{
+	border: 1px solid black;
+	padding: 5px 10px;
+	background: red;
+	text-decoration:none;
+	color: white;
+	margin-right: 10px;
+}
+
+.cancelBtn{
+	border: 1px solid black;
+	padding: 5px 10px;
+	background: royalblue;
+	text-decoration:none;
+	color: white;
+	margin-right: 10px;
+}
+
+.viewAllNav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.allHeading{
+	text-align: center;
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
+
+.allItems{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.allheader{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+	background: grey;
+	color:white;
+}
+
+.allData{
+	border: 1px solid;
+	border-collapse: collapse;
+	padding:10px;
+	text-align: center;
+	background: whitesmoke;
+	font-weight: bold;
+}
+
+.createNav{
+	display: flex;
+	justify-content: space-between;
+	color: forestGreen;
+}
+
+.createItem{
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+	margin: 50px 350px;
+	background: darkblue;
+}
+
+.createInput{
+	font-weight: bold;
+	color: darkorange;
+	margin-bottom: 30px;
+}
+
+.createBtn{
+	background: forestgreen;
+	padding: 2px;
+	font-weight: bold;
+	color: white;
+}
